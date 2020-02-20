@@ -6,14 +6,6 @@ body {margin: 0;
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-    min-height: 100px;
-    background-color: #000;
-}
-
-
-
 
 /*top*/
 
@@ -25,7 +17,7 @@ header {
 
 #top_video{
 	width: 70%;
-	grid-area: 1/2/4/5;
+	grid-area: 1/2/5/5;
 	margin: auto
 }
 
@@ -33,5 +25,46 @@ header {
 	width: 70%;
 	margin: auto;
 	z-index: 1;
-	grid-area: 1/1/4/5;
+	grid-area: 3/2/4/5;
 }
+
+/*historie*/
+
+#historie{
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	display: grid;
+	grid-area: repeat(12,1fr)/repeat(8,1fr);
+}
+
+#hamid{
+	border-radius: 50%;
+	grid-area: 8/4/7/6;
+	width: 40%;
+	
+}
+
+#hist{
+	grid-area: 7/5/7/6;
+}
+
+#kasse1{
+	background-color: rgb(238,211,189,1.00);
+	grid-area: 5/4/9/6;
+	z-index: -1;
+	
+}
+
+#kasse2{
+	background-color: rgb(176,102,29);
+	grid-area: 1/1/13/9;
+	z-index: -2;
+}
+
+
+
+
+
+
+

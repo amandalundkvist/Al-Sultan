@@ -11,21 +11,22 @@ body {margin: 0;
 
 #top{
 	display: grid;
-	grid-area: repeat(3,1fr)/ repeat(4,1fr);
+	grid-template: repeat(3,1fr)/ repeat(4,1fr);
+	margin: auto;
+	width: 70%;
 	
 }
 
 #top_video{
-	width: 70%;
-	grid-area: 1/2/5/5;
-	margin: auto
+	width: 100%;
+	grid-area: 1/1/5/5;
+	
 }
 
 #head{
-	width: 70%;
-	margin: auto;
+	width: 100%;
 	z-index: 1;
-	grid-area: 3/2/4/5;
+	grid-area: 1/1/5/5;
 }
 
 /*historie*/
@@ -35,30 +36,32 @@ body {margin: 0;
 	height: 400px;
 	margin: auto;
 	display: grid;
-	grid-area: repeat(12,1fr)/repeat(8,1fr);
+	grid-template:repeat(16,6.25%)/repeat(16,6.25%);
+	
 }
 
 #hamid{
 	border-radius: 50%;
-	grid-area: 8/4/7/6;
-	width: 40%;
+	grid-area: 2/2/2/15;
+	width:40%;
+
 	
 }
 
 #hist{
-	grid-area: 7/5/7/6;
+	grid-area: 3/8/15/15;
 }
 
 #kasse1{
 	background-color: rgb(238,211,189,1.00);
-	grid-area: 5/4/9/6;
+	grid-area: 2/2/16/16;
 	z-index: -1;
 	
 }
 
 #kasse2{
 	background-color: rgb(176,102,29);
-	grid-area: 1/1/13/9;
+	grid-area: 1/1/17/17;
 	z-index: -2;
 }
 

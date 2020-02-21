@@ -169,15 +169,46 @@ width: 70%;
 
 /*slideshow*/
 
-.slideshow {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#galleri{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template: repeat(20,5%)/repeat(20,5%);
 }
 
 
+#gallerikas{
+		width: 100%;
+	background-color: rgb(176,102,29);
+	box-shadow: 2px 5px 37px -1px #000;
+	grid-area: 1/1/21/21;
+	z-index: -1;
+}
+#slidebillede {
+	width: 90%;
+	margin: auto;
+	grid-area: 3/4/9/18;
+	
+ 
+}
 
+#frem{
+	width: 100%;
+	grid-area: 9/18/14/20;
+	background-color: rgb(176,102,29);
+	border-color: rgb(176,102,29);
+}
 
+#tilbage{
+	width: 100%;
+	grid-area: 9/2/14/4;
+	background-color: rgb(176,102,29);
+	border-color: rgb(176,102,29);
+}
 
+.pil{
+	width: 100%
+}
 
 

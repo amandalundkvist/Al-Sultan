@@ -21,7 +21,7 @@ function gaaTilbage() {
 }
 
 // ------- Hovedprogram ---------
-const billedliste = ["images/slide1.jpg", "images/slide2.jpg", "loevepar.jpg"];
+const billedliste = ["images/slide1.jpg", "images/slide2.jpg", "images/flaske.jpg"];
 let billedIndeks = 0;
 
 document.getElementById("frem").addEventListener("click", function () {

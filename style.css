@@ -230,6 +230,7 @@ width: 70%;
 
 #flag{
 	width: 60%;
+	height: 450px;
 	margin: auto;
 	display: grid;
 	grid-template: repeat(12,8.333%)/repeat(12,8.333%);
@@ -239,9 +240,7 @@ width: 70%;
 #tappe{
 	grid-area: 1/1/13/13;
 	width: 100%;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+
 	
 }
 
@@ -352,4 +351,79 @@ width: 70%;
 	width: 100%;
 	z-index: 3;
 	opacity: 0.8;
+}
+
+
+
+
+
+/*footer*/
+
+#fotbox{
+	background-color: rgb(4,35,49);
+	grid-area: 1/1/13/13;
+	z-indeks:-2;
+}
+
+footer{
+	display: grid;
+	height: 500px;
+	grid-template: repeat(12,8.33%)/repeat(12,8.33%);
+	width: 60%;
+	margin: auto;
+	
+}
+
+
+
+
+.footer-flex {
+
+    display: flex;
+    justify-content: center;
+    background-color: #b5c2c7;
+    align-items: center;
+	grid-area: 5/1/12/13;
+}
+
+.footer-overskrift {
+    padding-top: 35px;
+}
+
+.footer-flex div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+
+.adresse {
+
+    font-size: 20px;
+    align-content: center;
+    list-style-type: none;
+    padding-right: 40px;
+
+
+}
+
+.adresse-flex {
+
+    padding-left: 110px;
+}
+
+.aabningstider {
+
+    font-size: 20px;
+    align-content: center;
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.aabningstider-flex {
+
+    padding-right: 110px;
+
 }

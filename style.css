@@ -8,6 +8,7 @@ body {margin: 0;
 
 p{
 	font-size: 20px;
+	
 }
 /*top*/
 
@@ -33,6 +34,8 @@ p{
 
 /*historie*/
 
+
+
 #historie{
 	width: 70%;
 	
@@ -42,9 +45,19 @@ p{
 	
 }
 
+#ash{
+	grid-area: 1/4/2/15;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+
 #hamid{
 	border-radius: 50%;
-	grid-area: 3/2/5/16;
+	grid-area: 4/2/5/16;
 	width:30%;
 	z-index: 2;
 	box-shadow: 3px 3px 5px -1px #000
@@ -189,6 +202,7 @@ width: 70%;
 	width: 90%;
 	margin: auto;
 	grid-area: 3/4/9/18;
+	box-shadow: 2px 5px 3px -1px #000;
 	
  
 }
@@ -211,4 +225,122 @@ width: 70%;
 	width: 100%
 }
 
+/*flag*/
 
+#flag{
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template: repeat(12,8.333%)/repeat(12,8.333%);
+	
+}
+
+#tappe{
+	grid-area: 1/1/13/13;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+
+
+#flagkas{
+		width: 100%;
+	height: 100%;
+	margin: auto;
+	grid-area: 1/1/13/13;
+	background-color: rgb(4,35,49);
+
+}
+
+
+
+/*anmeld*/
+
+
+#anmeld{
+	width: 70%;
+	height: 600px;
+	margin: auto;
+	display: grid;
+	grid-template:repeat(12,8.33%)/repeat(12,8.33%);
+	
+}
+
+#anmeldkas1{
+	background-color: rgb(238,211,189,1.00);
+	grid-area: 2/2/12/12;
+	z-index: -1;
+	
+}
+
+#anmeldkas2{
+	background-color: rgb(176,102,29);
+	grid-area: 1/1/13/13;
+	z-index: -2;
+	box-shadow: 2px 5px 37px -1px #000;
+}
+
+
+
+#pita1{
+	grid-area: 2/2/4/5;
+	
+}
+
+#pita2{
+	grid-area: 2/8/4/11;
+	
+}
+
+#pita3{
+	grid-area: 7/2/13/5;
+	
+}
+
+#pita4{
+	grid-area: 7/8/13/11;
+}
+
+
+#anmeld1{
+	grid-area: 3/2/6/8;
+	
+}
+
+#anmeld2{
+	grid-area: 3/8/6/12;
+	
+}
+
+#anmeld3{
+	grid-area: 8/2/10/8;
+	
+}
+
+#anmeld4{
+	grid-area: 8/8/10/12;
+	
+}
+
+
+.pita{
+	width: 100%;
+}
+
+
+#pita,p{
+	padding-left: 15px
+}
+
+.navn{
+	padding-left: 20px;
+}
+
+#malan{
+	grid-area:11/7/12/12;
+	width: 100%;
+	z-index: 3;
+	opacity: 0.8;
+}

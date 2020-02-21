@@ -7,7 +7,7 @@ body {margin: 0;
 }
 
 p{
-	font-size: 2em;
+	font-size: 20px;
 }
 /*top*/
 
@@ -15,7 +15,7 @@ p{
 	display: grid;
 	grid-template: repeat(3,1fr)/ repeat(4,1fr);
 	margin: auto;
-	width: 70%;
+	width: 60%;
 	
 }
 
@@ -34,7 +34,7 @@ p{
 /*historie*/
 
 #historie{
-	width: 80%;
+	width: 70%;
 	
 	margin: auto;
 	display: grid;
@@ -45,14 +45,15 @@ p{
 #hamid{
 	border-radius: 50%;
 	grid-area: 3/2/5/16;
-	width:40%;
+	width:30%;
 	z-index: 2;
+	box-shadow: 3px 3px 5px -1px #000
 
 	
 }
 
 #hist{
-	grid-area: 3/8/15/15;
+	grid-area: 2/8/15/15;
 	z-index: 2;
 }
 
@@ -67,22 +68,102 @@ p{
 	background-color: rgb(176,102,29);
 	grid-area: 1/1/17/17;
 	z-index: -2;
+	box-shadow: 2px 5px 37px -1px #000;
 }
 
 #hojt{
-	width: 100%;
-	grid-area: 10/6/15/8;
+	width: 80%;
+	grid-area: 10/5/15/7;
 	z-index: 3;
+	border-radius: 50%;
+	box-shadow: 3px 3px 5px -1px #000
 }
 
 #maling{
 	width: 100%;
 	grid-area: 12/1/15/8;
 	z-index: 1;
+	opacity: 0.8;
 }
 
 
+/*info1*/
 
+#info1{
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template: repeat(12,1fr)/repeat(12,1fr);
+}
+
+#infokas{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	grid-area: 1/1/14/14;
+	background-color: rgb(4,35,49);
+}
+
+
+#info1b{
+	width: 100%;
+	margin: auto;
+	z-index: 1;
+	grid-area: 2/2/12/12
+	
+}
+
+/*pitavid*/
+
+#pitavid{
+width: 70%;
+	
+	margin: auto;
+	display: grid;
+	grid-template:repeat(12,1fr)/repeat(12,1fr);
+}
+
+#pitakas{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(176,102,29);
+	
+	box-shadow: 2px 5px 37px -1px #000;
+	grid-area: 1/1/13/13;
+	
+}
+
+#pitavide{
+	width: 100%;
+	grid-area: 2/2/12/12;
+}
+
+
+/*info2*/
+
+#info2{
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template: repeat(12,1fr)/repeat(12,1fr);
+}
+
+#infokas2{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	grid-area: 1/1/14/14;
+	background-color: rgb(4,35,49);
+}
+
+
+#info2b{
+	width: 100%;
+	margin: auto;
+	z-index: 1;
+	grid-area: 2/2/12/12
+	
+}
 
 
 

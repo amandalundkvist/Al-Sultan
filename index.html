@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Sultan</title>
 	  <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Barlow:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +15,9 @@
 	
 	
 	<section id="top">
-		<video src="video/velkomst-video.mp4" id="top_video" class="video"></video>
+		<video loop playsinline muted autoplay id="top_video" class="video">
+		<source src="video/velkomst-video.mp4">
+		</video>
 		<img src="images/top.png" id="head" class="bolge" alt="">
 	
 	</section>
@@ -36,9 +38,15 @@
 		
 		<div id="kasse1"></div>
 		<div id="kasse2"></div>
-		<img src="images/speaker.png" id="hojt" alt="">
+		<button id="start">
+			<img src="images/speaker.png" id="hojt" alt="">
+		</button>
+		
+			
+		
 		
 		<img src="images/maling.png" id="maling" alt="">
+		<img src="images/lime.png" id="lime" alt="">
 		
 		
 	</section>
@@ -46,8 +54,13 @@
 	<section id="info1">
 		<div id="infokas"></div>
 		<img src="images/info1.png" id="info1b" alt="">
+		<img src="images/chili.png" id="chili" alt="">
 	</section>
 	
+	<section id="griddygrid">
+		<img src="images/peber.png" id="peber" alt="">
+	<img src="images/koriander.png" id="koriander" alt="">
+		<img src="images/kanel.png" id="kanel" alt="">
 	
 	
 	<section id="pitavid">
@@ -60,9 +73,9 @@
 	<div id="infokas2"></div>
 		<img src="images/info2.png" id="info2b" alt="">
 	</section>
+	</section>
 	
-	
-	
+	<section id="meregrid">
 	<section id="galleri">
 		<div id="gallerikas"></div>
 		    <button type="button" id="tilbage"><img src="images/venstre.png" class="pil" alt=""></button>
@@ -75,7 +88,9 @@
 	<div id="flagkas"></div>
 		<img src="images/taeppe.png" id="tappe" alt="">
 	</section>
-	
+		<img src="images/kryd2.png" id="kryd" alt="">
+		<img src="images/kikart.png" id="kik" alt="">
+	</section>
 	
 	<section id="anmeld">
 		<h1 id="anmelds">Anmeldelser</h1>
@@ -120,6 +135,9 @@
 	
 	
     <footer>
+		<img src="images/location-icon.png" id="pil" alt="">
+		<a href="#top" id="pilop"><img src="images/hojre.png" alt=""></a>
+		
 		<div id="fotbox"></div>
 		
 		<div class="footer-flex">

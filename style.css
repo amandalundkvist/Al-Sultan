@@ -283,6 +283,7 @@ margin: auto;
 	margin-top: 15px;
 	grid-area: 1/4/9/18;
 	box-shadow: -1px 1px 7px 1px #000;
+	z-index: 3;
 	
  
 }
@@ -292,6 +293,7 @@ margin: auto;
 	grid-area: 9/18/14/20;
 	background-color: rgb(176,102,29);
 	border-color: rgb(176,102,29);
+	cursor: pointer;
 }
 
 #tilbage{
@@ -299,6 +301,8 @@ margin: auto;
 	grid-area: 9/2/14/4;
 	background-color: rgb(176,102,29);
 	border-color: rgb(176,102,29);
+	cursor: pointer;
+	
 }
 
 .pil{

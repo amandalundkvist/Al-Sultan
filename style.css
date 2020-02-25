@@ -1,6 +1,10 @@
 
 /* CSS Document */
 
+*{
+	font-family: 'Barlow', sans-serif;
+}
+
 html{
 	scroll-behavior: smooth;
 	background-color: #E1E6EC;
@@ -20,9 +24,12 @@ p{
 }
 
 h1{
-	font-family: 'Barlow', sans-serif;
-	font-weight: 700;
-	font-size: 25px;
+	font-family: flood-std, sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: whitesmoke;
+
+
 }
 /*top*/
 
@@ -70,7 +77,7 @@ margin: auto;
 	width:30%;
 	height: auto;
 	z-index: 2;
-	box-shadow: -1px 1px 7px 1px #A0A0A0;
+	box-shadow: -1px 1px 7px 1px #000;
 
 
 	
@@ -102,6 +109,7 @@ margin: auto;
 	border-radius: 50%;
 	background-color: transparent;
 	border-color: transparent;
+	cursor: pointer;
 	
 	
 }
@@ -139,12 +147,13 @@ margin: auto;
 	margin: auto;
 	grid-area: 1/5/15/21;
 	background-color: rgb(4,35,49);
+	z-index: 1;
 }
 
 
 #info1b{
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 	grid-area: 2/6/20/20;
 	
 }
@@ -178,7 +187,13 @@ margin: auto;
 	padding-top: 2em;
 }
 
-
+#sadan{
+	grid-area:  1/1/1/25;
+	z-index: 4;
+	text-align: center;
+	padding-top: 20px;
+	margin: auto;
+}
 
 /*info2*/
 
@@ -263,9 +278,10 @@ margin: auto;
 	z-index: -1;
 }
 #slidebillede {
-	width: 90%;
+	width: 100%;
 	margin: auto;
-	grid-area: 2/4/9/18;
+	margin-top: 15px;
+	grid-area: 1/4/9/18;
 	box-shadow: -1px 1px 7px 1px #000;
 	
  
@@ -319,6 +335,9 @@ margin: auto;
 
 /*anmeld*/
 
+.pita{
+	padding: 20px 0px 0px 40px 
+}
 
 #anmeld{
 	width: 70%;
@@ -336,6 +355,7 @@ margin: auto;
 	align-content: center;
 	align-items: center;
 	text-align: center;
+	margin: auto
 }
 #anmeldkas1{
 	background-color: rgb(238,211,189,1.00);
@@ -375,21 +395,25 @@ margin: auto;
 
 #anmeld1{
 	grid-area: 3/2/6/8;
+	padding-top: 15px;
 	
 }
 
 #anmeld2{
 	grid-area: 3/8/6/12;
+	padding-top: 15px;
 	
 }
 
 #anmeld3{
 	grid-area: 8/2/10/8;
+	padding-top: 15px;
 	
 }
 
 #anmeld4{
 	grid-area: 8/8/10/12;
+	padding-top: 15px;
 	
 }
 
@@ -441,7 +465,6 @@ margin: auto;
 	z-index: -3;
 	width: 100%;
 }
-
 
 
 /*footer*/

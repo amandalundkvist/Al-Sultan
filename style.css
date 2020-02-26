@@ -181,7 +181,7 @@ margin: auto;
 }
 
 #pitavide{
-	width: 100%;
+	width: 90%;
 	grid-area:2/2/13/24;
 	margin: auto;
 	padding-top: 2em;
@@ -278,7 +278,7 @@ margin: auto;
 	z-index: -1;
 }
 #slidebillede {
-	width: 100%;
+	width: 88%;
 	margin: auto;
 	margin-top: 15px;
 	grid-area: 1/4/9/18;
